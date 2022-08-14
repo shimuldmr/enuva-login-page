@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    background-color: #ECF0F3;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form {
+    width: 300px;
+    height: 500px;
+    background-color: #ECF0F3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #cdced1 , -10px -10px 15px white ;
+    padding: 30px 20px;
+}
+
+.logo{
+    background: url(image/Logo-01.jpg) center center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 15px #cdced1 , -10px -10px 15px white ;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    color: rgb(165, 216, 114);
+    padding-bottom: 20px;
+}
+
+.form1{
+    text-align: center;
+    width: 100%;
+}
+
+.form1 input{
+    border: none;
+    background: none;
+    outline: none;
+    
+    padding: 20px 40px;
+    font-size: 16px;
+    position: relative;
+}
+.user, .password{
+    
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: inset 8px 8px 15px #cdced1,
+                inset -8px -8px 15px white ;}
+
+ svg{
+    height: 24px;
+    position: absolute;
+    margin: 14px 0 0 12px;
+}
